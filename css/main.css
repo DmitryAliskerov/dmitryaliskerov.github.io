@@ -998,6 +998,8 @@ label.error:after {
   -o-background-size: cover;
   background-size: cover;
   color: #FFF;
+
+  background: linear-gradient(black 0%, #303040 27%, #303040 39%, black 66%);
 }
 @media (min-width: 768px) {
   .header {
