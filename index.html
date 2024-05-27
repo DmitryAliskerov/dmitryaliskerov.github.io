@@ -1,5 +1,866 @@
-<html>
-  <body>
-    <p>Init</p>
-  </body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Titles -->
+    <title>Персональный сайт портфолио - Емельян Казаков</title>
+    <meta name="keywords" content="Ключевые слова...">
+    <meta name="description" content="Описание страницы...">
+
+    <!-- Syles -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" type="text/css" href="fonts/noto-webfont/noto.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/image-zoom.css" rel="stylesheet">
+
+    <!-- FavIcons -->
+    <link rel="shortcut icon" href="img/favicons/favicon-48x48.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--[if lt IE 8]>
+    <p class="browserupgrade">Вы используете <strong>устаревшую</strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/">обновите свой браузер</a>.</p>
+<![endif]-->
+<!-- Здесь пишем код -->
+<!-- Шапка -->
+
+
+<div class="header">
+    <div class="header__inner">
+        <nav class="navigation">
+            <!-- Navigation icon -->
+            <!-- <div class="navigation__toggle navigation__toggle--fixed">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div> -->
+            <button id="navigation__button" class="cmn-toggle-switch cmn-toggle-switch__htx">
+                <span>toggle menu</span>
+            </button>
+            <!-- // Navigation icon -->
+            <ul class="navigation__list">
+                <li><a href="#resume">Резюме</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</div>
+<!-- // Шапка -->
+
+
+<!-- Резюме -->
+<div id="resume" class="section section--bottom-line section--bg-middle-1">
+    <div class="container">
+        <div class="row">
+
+            <!-- Фотография пользователя -->
+            <div class="hidden-xs col-sm-2 col-lg-3">
+                <div class="user-photo user-photo--big">
+                    <img src="usercontent/img/photo-big.jpg" alt="Емельян Казаков">
+                </div>
+            </div>
+            <!-- // Фотография пользователя -->
+            <!-- Резюме пользователя -->
+            <div class="col-sm-10 col-lg-9">
+
+                <div class="heading">Резюме</div>
+
+                <h3 class="heading-p1"><strong>Дмитрий Алискеров</strong><br></h3>
+                <p class="heading-p2">42 года, Ижевск, Россия</p>
+                <p class="heading-p2">Инженер-математик-программист</p>
+
+                <!-- Опыт и Образование -->
+                <div class="row">
+                    <div class="col-sm-6">
+
+                        <div class="heading heading--medium">
+                            Опыт работы
+                        </div>
+
+                        <ul class="definition-list">
+                            <li class="definition-list__item">
+                                <div class="definition-list__def heading-p1">
+                                    Октябрь 2022 — по настоящее время
+                                </div>
+                                <div class="definition-list__desc heading-p2">
+                                    <p>Logmaster Systems AB. Developer (.NET)</p>
+                                </div>
+                            </li>
+                            <li class="definition-list__item">
+                                <div class="definition-list__def heading-p1">
+                                    Январь 2021 — Июль 2022
+                                </div>
+                                <div class="definition-list__desc heading-p2">
+                                    <p>Epiroc. Developer (.NET)</p>
+                                </div>
+                            </li>
+                            <li class="definition-list__item">
+                                <div class="definition-list__def heading-p1">
+                                    Апрель 2012 — Октябрь 2020
+                                </div>
+                                <div class="definition-list__desc heading-p2">
+                                    <p>Apica. Developer (.NET)</p>
+                                </div>
+                            </li>
+                            <li class="definition-list__item">
+                                <div class="definition-list__def heading-p1">
+                                    Июнь 2005 — Апрель 2012
+                                </div>
+                                <div class="definition-list__desc heading-p2">
+                                    <p>Уральский Трастовый Банк. Программист.</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-6">
+
+                        <div class="heading heading--medium">
+                            Образование
+                        </div>
+
+                        <ul class="definition-list">
+                            <li class="definition-list__item">
+                                <div class="definition-list__def heading-p1">
+                                    2011
+                                </div>
+                                <div class="definition-list__desc heading-p2">
+                                    <p>Moscow Institute of Information Technology “IT”.</p>
+                                    <p>Информационная безопасность.</p>
+                                </div>
+                            </li>
+                            <li class="definition-list__item">
+                                <div class="definition-list__def heading-p1">
+                                    1999 — 2004
+                                </div>
+                                <div class="definition-list__desc heading-p2">
+                                    <p>ФГБОУ ВО ИжГТУ им. М.Т. Калашникова.</p>
+                                    <p>Кафедра "Прикладная математика и информатика".</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- // Опыт и Образование -->
+
+
+
+                <div class="button">
+                    <a class="fa fa-download" aria-hidden="true" download href="usercontent\pdf\АЛИСКЕРОВ ДМИТРИЙ ВЛАДИМИРОВИЧ.pdf" target="_blank">
+                        Скачать резюме
+                    </a>
+                </div>
+            </div>
+            <!-- // Резюме пользователя -->
+        </div>
+    </div>
+</div>
+<!-- Резюме -->
+
+<!-- Портфолио -->
+<div id="portfolio" class="section section--bottom-line section--padding-smaller section--bg-middle-2">
+<div class="container">
+
+<!-- Заголовок -->
+<div class="heading heading--center">Профессиональная деятельность</div>
+<!-- // Заголовок -->
+<!-- Блок - ряд с работами -->
+<div class="row" id="portfolio-projects">
+
+<h1 class="heading-p1">Apica</h1>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="finite: true">
+
+    <ul class="uk-slider-items uk-grid">
+        <li class="uk-width-full" tabindex="0">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                	<img src="usercontent/img/full/Apica/ApicaMain.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">1</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p><strong>Web Site:</strong><a href="https://www.apica.io/synthetic-monitoring"> https://www.apica.io/synthetic-monitoring</a></p>
+                        <p>Продукт предназначен для синтетических тестов и мониторинга бизнес-приложений.</p>
+                        <p>
+                            <strong>Обязанности:</strong><br />
+                            - проектирование и разработка веб-приложения (frontend + backend)<br />
+                            - проектирование и разработка REST API<br />
+                            - проектирование БД<br />
+                            - интеграции с внешними системами (AppDynamics, NewRelic, PagerDuty)<br />
+                        </p>
+                        <p>
+                            <strong>Стек и технологии:</strong><br />
+                            .NET Framework 4.5, C# 5, ASP.NET MVC, ASP.NET WebAPI, Entity Framework, Dapper, StructureMap,
+                            HTML/CSS, ES5, jQuery, KnockoutJS, VueJS, MS SQL Server, Hangfire, PhantomJS, Grafana, AWS S3,
+                            SSO, SAML
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="1">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Apica/ManageChecks.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">2</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример управления проверками-тестами.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="2">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Apica/ManageTags.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">3</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример управления группами тегов.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="3">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Apica/AnalyzeMetrics.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">4</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример сравнения метрик (результатов тестов).</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="4">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Apica/AppDynamics.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">5</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Интеграция с AppDynamics.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="5">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Apica/GoogleAnalytics.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">6</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Интеграция с Google Analytics.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="6">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Apica/Grafana.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">7</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Интеграция с Grafana.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+
+<h1 class="heading-p1">CertiQ</h1>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="finite: true">
+
+    <ul class="uk-slider-items uk-grid">
+        <li class="uk-width-full" tabindex="0">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/CertiQ/CertiQMain.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">1</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p><strong>Web Site:</strong><a href="https://www.epiroc.com/ru-ru/products/parts-and-services/telematics/certiq"> https://www.epiroc.com/ru-ru/products/parts-and-services/telematics/certiq</a></p>
+                        <p>Продукт предназначен для анализа и отображения данных полученных с датчиков горнодобывающих машин.</p>
+                        <p>
+                            <strong>Обязанности:</strong><br />
+                            - проектирование и разработка веб-приложения (frontend + backend)<br />
+                            - проектирование и разработка REST API<br />
+                            - проектирование БД<br />
+                            - поддержка<br />
+                        </p>
+                        <p>
+                            <strong>Стек и технологии:</strong><br />
+                            .NET Framework 4.6, C# 6, ASP.NET MVC, ASP.NET WebAPI, XJS, HTML/CSS, MS SQL Server
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="1">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/CertiQ/Loading.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">2</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример статистики по операции погрузки.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="2">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/CertiQ/Locations.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">3</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример отображение положения объектов.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="3">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/CertiQ/Services.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">4</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример анализа по-предстоящему техническому обслуживанию.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="4">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/CertiQ/Alarms.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">5</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример статистики сигналов предупреждения.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="5">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/CertiQ/KPI.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">6</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример построения отчёта по KPI.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+
+<h1 class="heading-p1">Logmaster</h1>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="finite: true">
+
+    <ul class="uk-slider-items uk-grid">
+        <li class="uk-width-full" tabindex="0">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Logmaster/LogmasterMain.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">1</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p><strong>Web Site:</strong><a href="https://online.logmaster.se"> https://online.logmaster.se</a></p>
+                        <p>Система учёта посетителей (аналог электронной очереди).</p>
+                        <p>
+                            <strong>Обязанности:</strong><br />
+                            - проектирование и разработка веб-приложения (frontend + backend)<br />
+                            - проектирование и разработка REST API<br />
+                            - проектирование БД<br />
+                            - написание тестов<br />
+                            - интеграция с периферийными устройствами<br />
+                        </p>
+                        <p>
+                            <strong>Стек и технологии:</strong><br />
+                            .NET Framework 7.0, C# 11, ASP.NET MVC, ASP.NET WebAPI, Entity Framework, HTML/CSS, Angular, PostgreSQL, SignalR, Redis, RabbitMQ
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="1">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Logmaster/Terminal.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">2</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример регистрации пользователя через терминал.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="2">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Logmaster/Settings.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">3</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример работы с настройками нотификаций.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="3">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Logmaster/Visits.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">4</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример работы с посетителями.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="4">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img src="usercontent/img/full/Logmaster/Visitor.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">5</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Пример работы с деталями посетителя.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+
+
+<!-- Заголовок -->
+<div class="heading heading--center">Самообразование</div>
+<!-- // Заголовок -->
+
+<h1 class="heading-p1">Нейронных сети.</br>
+Анализ изображения.</h1>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="finite: true">
+
+    <ul class="uk-slider-items uk-grid">
+        <li class="uk-width-full" tabindex="0">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column" style="width: 63% !important;">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-1/RecognitionMain.jpg" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">1</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2" style="width: 36% !important;">
+                        <p>Одна из самых популярных задач нейросетей – технологии распознавания образов. Данный класс используются в таких сферах, как безопасность и наблюдение, сканирование и создание изображений, маркетинг и реклама, дополненная реальность и поиск изображений.</p>
+			<p>Чтобы научить сеть "видеть" и "понимать", что находится на изображении, люди используют технологии машинного обучения. Для этого собирают большие базы данных, из которых формируют дата-сеты. Но иногда получить реальные изображение достаточно трудно, либо дорого. Одним из способов решения этой проблемы является 3D графика.</p>
+			<p>В рамках этого проекта использовался игровой движок Unity для генерации изображений и описания признаков объектов.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="1">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column" style="width: 63% !important;">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-1/Generator.gif" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">2</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2" style="width: 36% !important;">
+                        <p>Была создана простая сцена. Где случайным образом генерировались 3 типа объектов. Которы падали на конвейерную ленту и двигались с учётом "реальной" физики, катаясь и сталкиваясь.</p>
+			<p>На определённом участке стояла камера и фиксировала изображения. Эти изображения сохранялись вместе с описанием.</p>
+			<p>Пример описания:
+			<ul>
+				<li>1 0.479492 0.688771 0.955609 0.5955</li>
+				<li>1 0.339438 0.418896 0.678875 0.7815</li>
+				<li>3 0.642859 0.0792187 0.148063 0.148062</li>
+			</ul></p>
+			<p>Класс объекта, (x,y) координата верхнего левого угла, (x,y) координата нижнего правого угла прямоугольника в котором находится объект.</p>
+			<p>В течение нескольких минут был сформирован дата-сет из нескольких тысяч изображений и описаний к ним.
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="2">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-1/Detector.gif" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">3</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2">
+                        <p>Результат распознавания 3-х классов объектов в реальном времени в том же потоке изображений.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="3">
+            <div class="uk-panel">
+                <div class="row heading-p2" style="padding-left: 50px;">
+		    <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">4</h1></div>
+		    <h2 class="heading-p2">Заключение.</h2>
+                    <p>На сегодняшний день средства для создания графики достигли очень высокого уровня (пример фильмы, видео игры). И с их помощью можно создавать изображения очень близкие к реалистичным. А значит и создавать дата-сеты с изображениями объектов которые ещё не встречались, но могут встретиться. В том числе при помощи различных mesh-модификаторов и текстурирования.</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+
+<h1 class="heading-p1">Нейронные сети.</br>
+Обучение с подкреплением.</h1>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="finite: true">
+
+    <ul class="uk-slider-items uk-grid">
+        <li class="uk-width-full" tabindex="0">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column" style="width: 63% !important;">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-2/ReinforcementMain.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">1</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2" style="width: 36% !important;">
+                        <p>Обучение с подкреплением (Reinforcement Learning) – это метод машинного обучения, в котором система (агент) обучается методом проб и ошибок. Идея заключается в том, что агент взаимодействует со средой, параллельно обучаясь, и получает вознаграждение и штрафы за выполнение определённых действий.</p>
+			<p>Используется в следующих сферах:
+			<ul>
+				<li>Робототехника для промышленной автоматизации (например, конвейерная сборка).</li>
+				<li>Планирование бизнес-стратегии.</li>
+				<li>Автоматизация внутри самого машинного обучения.</li>
+				<li>Системы рекомендаций.</li>
+				<li>Управление движением робота, автопилот.</li>
+			</ul></p>
+			<p>В рамках этого проекта использовался игровой движок Unity для создания среды и взаимодействующего с ней агента.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="1">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column" style="width: 63% !important;">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-2/ReinforcementLearn1.gif" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">2</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2" style="width: 36% !important;">
+                        <p>Задача:</p>
+                        <p>Научить агента (манипулятор с 3 степенями свободы) ловить движущийся шарик.</p>
+                        <p>Для ускорения обучения было создано сразу 9 экземпляров среда-агент и применены гибридные алгоритмы.</p>
+			<p>В качестве поощрения было выбрано обратная функция от расстояния между захватом (кисть манипулятора) и шариком.</p>
+			<p>В качестве наказания было выбрано событие столкновения манипулятора со средой.</p>
+			<p>На первых минутах обучения видно как манипуляторы просто хаотически двигаются.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="2">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column" style="width: 63% !important;">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-2/ReinforcementLearn2.gif" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">3</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2" style="width: 36% !important;">
+			<p>Примерно через 4 минуты обучения можно заметить некоторый прогресс. Перемещения манипулятора уже становятся не много похожими на попытки поймать шарик.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="3">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column" style="width: 63% !important;">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-2/ReinforcementLearn3.gif" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">4</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2" style="width: 36% !important;">
+			<p>Примерно на 9-й минуте видно как в большинстве случаев шарик оказывается в нужной области (кисть манипулятора). Но некоторые из поколений всё ещё пропускают либо блокируют шарики.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="4">
+            <div class="uk-panel">
+                <div class="row heading-p2" style="padding-left: 50px;">
+		    <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">5</h1></div>
+		    <h2 class="heading-p2">Заключение.</h2>
+                    <p>С математической точки зрения эта задача очень хорошо формализуется и решается достаточно просто при помощи системы линейных уравнений, либо системой дифференциальных уравнений если система обладает существенными инерциальными характеристиками.</p>
+                    <p>Но, для того чтобы применить этот математический аппарат, нужно его как минимум изучить, а лучше освоить.</p>
+                    <p>Поэтому, даже в данном примере машинное обучение, по моему мнению, является не плохим средством для решения задачи и позволяет достигать определённого результата обходясь гораздо меньшими знаниями из математики (достаточно знать метод определение расстояние между 2 точками в пространстве).</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+
+<h1 class="heading-p1">Нейронные сети.</br>
+Дообучение нейронных сетей (Fine-Tuning AI Models).</h1>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="finite: true">
+
+    <ul class="uk-slider-items uk-grid">
+        <li class="uk-width-full" tabindex="0">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-3/GPTMain.PNG" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">1</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2" style="width: 36% !important;">
+                        <p>Generative Pre-trained Transformer ещё один вид нейронных сетей набирающий популярность.</p>
+			<p>Одно из определений - это нейронная сеть для генерации (продолжения) текста.</p>
+			<p>Другое определение - это языковая модель, основанная на архитектуре трансформер и обученная в self-supervised режиме на большом количестве текстовых данных.</p>
+			<p>В рамках этого проекты была поставлена задача не определять возможности (они без условно велики), а получше узнать производительность и скорость обучения подобных моделей на мощностях ПК.
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="1">
+            <div class="uk-panel">
+                <div class="row">
+                    <div class="column">
+                        <img class="uk-width-full" src="usercontent/img/full/NS-3/FineTuning.png" data-zoom-image>
+                        <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">2</h1></div>
+                    </div>
+                    <div class="column p-l-30 description heading-p2" style="width: 36% !important;">
+                        <p>В качестве основы была взята предобученная модель:</br>sberbank-ai/rugpt3large_based_on_gpt2.
+			<p>А в качестве текста для дообучения была выбрана первая глава из книги</br> ВП СССР "Достаточно общая теория управления":</br></br><a href="usercontent/html/train_dataset.html" target="_blank">Глава 1. Достаточно общая теория управления: зачем это надо?</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="2">
+            <div class="uk-panel">
+                <div class="row heading-p2" style="padding-left: 50px; padding-right: 60px;">
+		    <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">3</h1></div>
+		    <p>Эксперимент 1.</p>
+		    <p>Вопрос: Что такое достаточно общая теория управления?</p>
+		    <p>Ответ (оригинальная модель):</p>
+		    <p>	Расскажи про достаточно общую теорию управления, а не только про управление конкретными процессами и их элементами.</br>
+			Какие предметы нужно сдавать на ЕГЭ, чтобы поступить в вуз?</br>
+			Русский, математика, обществознание.
+		    <p>Анализ:</br>Не очень информативно.
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="3">
+            <div class="uk-panel">
+                <div class="row heading-p2" style="padding-left: 50px; padding-right: 60px;">
+		    <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">4</h1></div>
+		    <p>Эксперимент 2.</p>
+		    <p>Вопрос: Что такое достаточно общая теория управления?</p>
+		    <p>Ответ (дообученная модель):</p>
+		    <p> Расскажи про достаточно общую теорию управления, а то я что-то подзабыл.</br>
+			— Теория управления — это раздел философии, изучающий мир и процессы в нём, а также способы и методы управления этими процессами. В общем виде теория управления — это обобщение и конкретизация знаний, которые человек в состоянии обобщить и систематизировать для того, чтобы с его помощью в какой-либо области деятельности можно было эффективно управлять конкретными процессами и процессами в целом.</br>
+		    <p>Анализ:</br>
+		    Ответ кажется уже более "осмысленным" или более близким к определению. Но на самом деле если присмотреться, и по тексту и по смыслу ответ далёк от того что было в тексте дообучения. А это значит эта информация и так уже присутствовала в модели и до дообучения, но из-за изменений в модели пути поиска тоже сменились и как следствие и текст в качестве ответа.</p>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="4">
+            <div class="uk-panel">
+                <div class="row heading-p2" style="padding-left: 50px; padding-right: 60px;">
+		    <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">5</h1></div>
+		    <p>Эксперимент 3.</p>
+		    <p>Параметр - температура был увеличен (выбираются менее вероятные токены при поиске)</br>
+		       Вопрос: Что такое достаточно общая теория управления?
+		    
+		    <p>Ответ (дообученная модель):</p>
+		    <p> В общих чертах управление — это умение управлять по отношению к различным по уровню и характеру потребностям людей материальным и нематериальным активам — предметам и процессам материального мира.</br>
+			Управление возможно на основе практических навыков, которые индивид-управленец более или менее целенаправленно и осознанно использует, развивает и накапливает в качестве своего жизненного опыта. Какая-либо теория ему лично  для осуществления управления в общем-то не нужна, если он достаточно чувствителен и внимателен к тому, что происходит в сфере его деятельности.</br>
+		    <p>Анализ:</br>
+		    Ответ кажется просто комбинацией из разных источников. И если внимательно присмотреться, второе и третье предложение один в один предложения из второго абзаца текста для дообучения.</p>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-full" tabindex="5">
+            <div class="uk-panel">
+                <div class="row heading-p2" style="padding-left: 50px; padding-right: 60px;">
+		    <div class="uk-position-center uk-panel"><h1 class="uk-transition-slide-bottom-small">6</h1></div>
+		    <h2 class="heading-p2">Заключение.</h2>
+                    <p>В рамках этого эксперимента были освоены инструменты для получения и дообучения моделей.</p>
+                    <p>Также были зафиксированы результаты дообучения.</p>
+                    <p>Производительность сети на ПК можно считать удовлетворительной (примерно 10-15 секунд на ответ).</p>
+                    <p>А вот процесс дообучение чисто на ЦПУ занял порядка 3 часов. С учётом того что модель достаточно лёгкая (~3GB), а текст для дообучения очень небольшой, можно сделать вывод что на ПК каких-то серьёзных результатов в этом направлении добиться очень не просто (по крайней мере без поддержки GPU точно).</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+
+
+
+
+</div>
+<!-- // Блок - ряд с работами -->
+</div>
+</div>
+<!-- // Портфолио -->
+<!-- Контакты -->
+<div id="contacts" class="block-bg contacts section section--padding-smaller section--bg-middle-3">
+    <div class="container">
+        <div class="row">
+            <!-- Контакты - текст -->
+            <div class="col-sm-6">
+
+                <div class="heading heading--white">
+                    Контакты
+                </div>
+
+                <!-- Контактные данные -->
+                <div class="row">
+                    <!-- Email Skype -->
+                    <div class="col-lg-6">
+
+                        <ul class="definition-list">
+                            <li class="definition-list__item">
+                                <div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+                                    Email
+                                </div>
+                                <div class="definition-list__desc">
+                                    <p><a href="mailto:dmitry.aliskerov@gmail.com">dmitry.aliskerov@gmail.com</a></p>
+                                </div>
+                            </li>
+                            <li class="definition-list__item">
+                                <div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+                                    WhatsApp
+                                </div>
+                                <div class="definition-list__desc">
+                                    <p><a href="https://wa.me/79128717916">+7 912 871-79-16</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // Email Skype -->
+                    <!-- Телефон Адрес -->
+                    <div class="col-lg-6">
+                        <ul class="definition-list">
+                            <li class="definition-list__item">
+                                <div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+                                    Телеграм
+                                </div>
+                                <div class="definition-list__desc">
+                                    <p><a href="https://t.me/DmitryAliskerov">DmitryAliskerov</a></p>
+                                </div>
+                            </li>
+                            <li class="definition-list__item">
+                                <div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+                                    Адрес
+                                </div>
+                                <div class="definition-list__desc">
+                                    <p>Россия, Ижевск</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // Телефон Адрес -->
+                </div>
+                <!-- // Контактные данные -->
+            </div>
+            <!-- // Контакты - текст -->
+        </div>
+    </div>
+</div>
+
+<!-- // Контакты -->
+<!-- Vendor scripts -->
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
+<script src="libs/mixitup2/jquery.mixitup.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/jquery/jquery.mousewheel-3.0.6.pack.js"></script>
+<script src="libs/jquery.validate/jquery.validate.js"></script>
+
+<!-- Custom scripts -->
+<script src="js/navigation.js"></script>
+<script src="js/main.js"></script>
+<script src="js/uikit.js"></script>
+<script src="js/image-zoom.js"></script>
+
+</body>
 </html>
